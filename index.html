@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="max-w-[1173px] mx-auto my-10">
+    <header class="mx-5 my-10 lg:max-w-[1173px] lg:mx-auto ">
         <nav class="mb-8">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -25,10 +25,10 @@
                       <li><a>Search</a></li>
                     </ul>
                   </div>
-                  <a class="rale text-4xl font-extrabold text-black">Pen-Ticket</a>
+                  <a class="rale text-xl lg:text-4xl font-extrabold text-black">Pen-Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="flex gap-5 px-1">
+                  <ul class="flex flex-row items-center gap-5 px-1">
                     <li><a class="rale font-medium text-lg">Home</a></li>
                     <li><a class="rale font-medium text-lg">About</a></li>
                     <li><a class="rale font-medium text-lg">Destination</a></li>
@@ -36,12 +36,19 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn border-[#97ea89] bg-[#e8fae5] hover:border-[#97ea89] hover:bg-[#e8fae5] text-[#1dd100] rale font-bold text-xl">Bus
+                  <a class="btn border-[#97ea89] bg-[#e8fae5] hover:border-[#97ea89] hover:bg-[#e8fae5] color-base rale font-bold text-base lg:text-xl">Bus
                     <img src="images/bus-icon.png" alt="">
                   </a>
                 </div>
               </div>
         </nav>
+        <section class="banner bg-[url('/images/banner.png')] w-full bg-no-repeat bg-center bg-cover rounded-[32px]">
+            <div class="banner-txt px-5 py-20 text-center  lg:pb-[160px]">
+                <h3 class="rale font-extrabold text-white text-[40px] lg:text-[64px]">End-to-End Travel with <br><span class="color-base">Pen Travels</span></h3>
+                <p class="text-white mb-6 inter text-sm">Yes, you can run unit tests and view the results directly within the app. <br> The integrated testing features allow for a streamlined .</p>
+                <a href="#" class="btn bg-base border-0 hover:bg-[#1dd100] hover:border-0 rale font-bold text-xl">Buy Tickets</a>
+            </div>
+        </section>
     </header>
     <main></main>
     <footer></footer>
