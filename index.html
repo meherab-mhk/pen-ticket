@@ -257,7 +257,7 @@
                             <p class="">Discount</p>
                         </div>
                         <label id="coupon-input" class="input  flex items-center gap-2">
-                            <input id="coupon-name" type="text" class=" rale grow" placeholder="Have any Coupon?" />
+                            <input id="coupon-name" type="text" class=" rale grow" placeholder="Select 4 seat to apply coupon." />
                             <span id="apply-coupon-btn" class="rale btn btn-sm bg-green-500 hover:bg-green-500 text-white" disabled>Apply</span>
                           </label>
                           <div class="flex justify-between py-3 inter">
@@ -266,23 +266,24 @@
                         </div>
                     </div>
                     
+                        
                         <label class="form-control w-full">
                             <div class="label">
-                              <span class="label-text font-bold rale">Passenger Name*</span>
+                              <span class="label-text font-bold rale">Passenger Name*</span><small id="info-txt" class="text-red-400 py-2">To enable form select a seat first</small>
                             </div>
-                            <input type="text" placeholder="Enter your name" class="input input-bordered w-full" />
+                            <input id="passenger" type="text" placeholder="Enter your name" class="input input-bordered w-full" disabled/>
                         </label>
                         <label class="form-control w-full">
                             <div class="label">
                               <span class="label-text font-bold rale">Phone Number*</span>
                             </div>
-                            <input id="phone-number" type="number" placeholder="Enter your phone number" class="input input-bordered w-full" />
+                            <input id="phone-number" type="number" placeholder="Enter your phone number" class="input input-bordered w-full" disabled/>
                         </label>
                         <label class="form-control w-full">
                             <div class="label">
                               <span class="label-text font-bold rale">Email ID</span>
                             </div>
-                            <input type="email" placeholder="Enter your email id" class="input input-bordered w-full" />
+                            <input id="email" type="email" placeholder="Enter your email id" class="input input-bordered w-full" disabled/>
                         </label>
                         <a href="#my_modal_8" id="next-btn" class="btn bg-green-500 hover:bg-green-500 text-white w-full mt-4 rale font-bold" disabled>Next</a>
                     
